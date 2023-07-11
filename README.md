@@ -30,7 +30,9 @@ ___
 В `prometheus.yml` в качестве целевого таргета определен `https://app:9200` - приложение, мониторинг которого осуществляется в стеки
 ### Grafana
 Логин - admin.
-Пароль - foobar
+
+Пароль - foobar.
+
 Используется для визуализации полученных метрик. В проекте привентивно определены `datasources` и `dashborads`
 `grafana/privisioning/datasources` и `grafana/privisioning/dashboards`. Эти директории монтируется уже в сам контейнер.
 
